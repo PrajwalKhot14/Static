@@ -1,25 +1,20 @@
 import { createRoot } from 'react-dom/client'
-import Header from './Header'
-import MainContent from './MainContent'
-import Footer from './Footer'
+import App from './App.jsx'
 
 const root = createRoot(document.getElementById('root'))
 
+/**
+ * Challenge: Build out the main content section!
+ * 
+ * For now, skip 2 aspects of the design and we'll work on them later:
+ *   1. The colored bullets in the list
+ *   2. The larger gray React logo on the side
+ */
 
 
-
-
-
-function Page() {
-  return (
-      <>
-          <Header />
-          <MainContent />
-          <Footer />
-      </>
-  )
-}
 
 root.render(
-  <Page />
+  <>
+    <App />
+  </>
 )
